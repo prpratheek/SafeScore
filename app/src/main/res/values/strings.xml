@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToGetHer</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome!</string>
+    <string name="current_time">CURRENT TIME</string>
+    <string name="time">TIME</string>
+    <string name="current_location">CURRENT LOCATION</string>
+    <string name="lat_long">LAT, LONG</string>
+    <string name="threat_nearby">THREAT NEARBY</string>
+    <string name="loading">LOADING</string>
+    <string name="is_police_near">IS POLICE NEAR?</string>
+    <string name="tap_twice_to_scream_out_loud">TAP TWICE TO SCREAM OUT LOUD</string>
+    <string name="away_from_home_by_x_kms">AWAY FROM HOME BY \'X\' KMS</string>
+</resources>

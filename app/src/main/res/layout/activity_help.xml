@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.praveen.safescore.HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="FOR USE ON EMERGENCY / PRIMARY SOS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Usage of these tools is subject to genuine emergency.\nWe are not responsible for any issues raised due to unwanted calling to Police Stations / Your Parents."
+                android:layout_marginBottom="40dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/call_police"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="CALL POLICE STATION"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/call_parents"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="CALL EMERGENCY MOBILE"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/call_dev"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="GET SUPPORT FROM US"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/scream"
+            android:text="@string/tap_twice_to_scream_out_loud"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
